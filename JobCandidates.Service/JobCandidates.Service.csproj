@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JobCandidates.DATA\JobCandidates.Data.csproj" />
+    <ProjectReference Include="..\JobCandidates.Infrastructure\JobCandidates.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
